@@ -93,6 +93,7 @@ Spatial Optimisation
       ▼
 Policy Recommendations
 ```
+<img width="793" height="1316" alt="image" src="https://github.com/user-attachments/assets/0b1b54f3-11fb-44f0-becc-d5f5f8555010" />
 
 ---
 
@@ -113,6 +114,7 @@ The following features were created:
 CO₂ emissions were estimated using the **US EPA emission factor**
 
 > **404 g CO₂ per vehicle mile**
+
 
 ---
 
@@ -252,12 +254,58 @@ while affecting only a small proportion of taxi zones.
 │
 ├── outputs/
 │
-├── dissertation/
-│
 ├── requirements.txt
 │
 └── README.md
 ```
+## Exploratory Data Analysis
+
+### Hourly Taxi Demand
+
+<img width="549" height="411" alt="image" src="https://github.com/user-attachments/assets/f6e6f3e2-0c0b-4ad0-8e2f-ef3cf1aa74ac" />
+
+The demand shows a clear bimodal commuting pattern with morning and evening peaks.
+
+<img width="566" height="436" alt="image" src="https://github.com/user-attachments/assets/0316185d-7599-4ea6-b981-336bff07a2b1" />
+<img width="473" height="345" alt="image" src="https://github.com/user-attachments/assets/4cce0e97-34a1-48b1-8b84-6c736dc98b0f" />
+<img width="450" height="317" alt="image" src="https://github.com/user-attachments/assets/2582cec8-6a45-4bd2-ab42-2deb5e6b6b3a" />
+<img width="523" height="377" alt="image" src="https://github.com/user-attachments/assets/401f7912-be0c-4237-be3a-dfe3a72afa79" />
+
+---
+
+### Spatial Demand Distribution
+
+<img width="706" height="485" alt="image" src="https://github.com/user-attachments/assets/5a2b2ca2-c5de-465d-9b3c-eb8581e9c37f" />
+
+Trips are concentrated within Manhattan, while airport zones exhibit significantly longer journeys.
+
+## Machine Learning
+
+### Feature Importance
+
+<img width="564" height="407" alt="image" src="https://github.com/user-attachments/assets/ee0612eb-65f6-45a3-9be8-29273197a585" />
+
+Average fare was identified as the strongest predictor of zone-level demand.
+
+### Predicted vs Actual Demand
+<img width="837" height="596" alt="image" src="https://github.com/user-attachments/assets/2aed54fd-f9b5-40cc-9b8d-5acf8d852d81" />
+
+## Fare Scenario Simulation
+
+<img width="832" height="584" alt="image" src="https://github.com/user-attachments/assets/d8032a8a-8403-4650-94b1-0e54f17053ae" />
+
+<img width="817" height="579" alt="image" src="https://github.com/user-attachments/assets/5c016214-378f-4808-9811-3fbce859781e" />
+
+## Regional Pricing Strategy
+
+<img width="761" height="550" alt="image" src="https://github.com/user-attachments/assets/bc6d95fb-c76e-40a2-8980-535ac26fd4ad" />
+
+
+## Revenue vs CO₂
+
+<img width="956" height="401" alt="image" src="https://github.com/user-attachments/assets/4c459c3c-6d89-4b0d-b3b7-d4eb81d2802f" />
+
+The targeted pricing strategy achieved nearly the same emissions reduction as a blanket fare increase while affecting far fewer taxi zones.
 
 ---
 
